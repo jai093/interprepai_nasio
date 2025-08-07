@@ -1,31 +1,3 @@
-Of course. Here is the complete, updated HTML file modified to use a local Ollama API instead of the Google Gemini API.
-
-First, please read this important explanation.
-
-### Important: How Ollama Works
-
-The code has been changed to work with **Ollama**, but there are a few key things you must understand:
-
-1.  **Ollama Runs Locally:** Unlike the Google Gemini API, which is on the cloud, Ollama runs on your own computer. The code below assumes Ollama is running and accessible at its default address: `http://localhost:11434`.
-2.  **No API Key Needed:** The "API key" you provided is likely for a specific cloud service that hosts models. A standard local Ollama installation **does not use an API key**. I have removed the key variable from the code entirely.
-3.  **You Must Run a Model:** Before you open this HTML file in your browser, you must have an Ollama model running. The code is set to use the `llama3` model.
-
-**Your Action Steps:**
-
-1.  Make sure you have Ollama installed on your computer.
-2.  Open your terminal or command prompt and run the following command to download and start the Llama 3 model:
-    ```bash
-    ollama run llama3
-    ```
-3.  Keep this terminal window open. Now you can open the HTML file below, and the "Live AI Practice" and "Industry Pulse" sections will work.
-
------
-
-### Full Updated Code
-
-Here is the complete HTML file. You can save this and open it in your browser.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -999,4 +971,3 @@ Here is the complete HTML file. You can save this and open it in your browser.
     </script>
 </body>
 </html>
-```
