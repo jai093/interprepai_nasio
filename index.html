@@ -688,7 +688,7 @@
                 statusEl.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>AI is thinking... Please wait.';
 
                 // CORRECTED API URL using the stable 'gemini-pro' model name
-                const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+                const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${gemini-2.5-flash-001}:generateContent?key=${GEMINI_API_KEY}`;
 
                 // Create the prompt for the AI model
                 const prompt = `
@@ -970,4 +970,5 @@
     </script>
 </body>
 </html>
+
 
